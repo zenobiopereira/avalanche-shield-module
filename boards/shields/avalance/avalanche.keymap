@@ -1,0 +1,30 @@
+
+  /*
+  * Copyright (c) 2020 The ZMK Contributors
+  *
+  * SPDX-License-Identifier: MIT
+  */
+
+  #include <behaviors.dtsi>
+  #include <dt-bindings/zmk/keys.h>
+  #include <dt-bindings/zmk/bt.h>
+  #include <dt-bindings/zmk/ext_power.h>
+
+  / {
+    keymap {
+      compatible = "zmk,keymap";
+  layer0 {
+          bindings = <
+          &kp ESCAPE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp BACKSLASH &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LEFT_BRACKET &kp CAPSLOCK &kp LEFT_SHIFT &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp RIGHT_BRACKET &kp LEFT_CONTROL &kp Z &kp X &kp C &kp V &kp B &kp DELETE &kp LEFT_GUI &kp INSERT &kp BACKSPACE &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RIGHT_CONTROL &kp C_MUTE &lt 2 GRAVE &mt LEFT_SHIFT EQUAL &kp SPACE &mt LEFT_ALT ENTER RALT_T(KC_ENT) &mo 1 RSFT_T(KC_MINS) &mo 2 &kp PRINTSCREEN
+          >;
+        };layer1 {
+          bindings = <
+          &trans &kp F11 &kp F12 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F11 &trans &kp F20 &kp F20 &kp F20 &kp F20 &kp BACKSPACE &kp DELETE &kp HOME &kp UP &kp END &kp PAGE_UP &kp F20 &trans &trans &kp K_APPLICATION &kp F20 &kp F20 &kp F20 &kp DELETE &kp BACKSPACE &kp LEFT &kp DOWN &kp RIGHT &kp PAGE_DOWN &kp F20 &kp F12 &trans &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans &trans &trans &trans &kp F20 &kp PAGE_UP &kp PAGE_DOWN &kp F20 &kp F20 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+          >;
+        };layer2 {
+          bindings = <
+          &trans &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans &kp N0 &kp N1 &kp N2 &kp N3 &kp BACKSPACE &kp DELETE KC_EXLM KC_AT KC_HASH &kp F20 KC_LPRN &trans &trans &kp N0 &kp N4 &kp N5 &kp N6 &kp DELETE &kp BACKSPACE KC_DLR KC_PERC KC_CIRC &kp F20 &kp F20 KC_RPRN &trans &kp N0 &kp N7 &kp N8 &kp N9 &kp DOT &trans &trans &trans &trans &kp F20 KC_AMPR KC_ASTR &kp F20 &kp F20 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+          >;
+        };
+    };
+  };

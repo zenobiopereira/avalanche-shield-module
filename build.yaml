@@ -6,7 +6,7 @@
 # distinguish build outputs from each other:
 #
 board: [ "nice_nano_v2" ]
-shield: [ "avalanche_left", "avalanche_right" ]
+shield: [ "avalanche" ]
 #include:
 #  - board: avalanche
 #   - board: nice_nano_v2

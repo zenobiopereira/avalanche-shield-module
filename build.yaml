@@ -5,7 +5,7 @@
 # pass flags to the build command and `artifact-name` to assign a name to
 # distinguish build outputs from each other:
 #
-board: [ "avalanche" ]
+board: [ "nice_nano_v2" ]
 shield: [ "avalanche_left", "avalanche_right" ]
 # include:
 #   - board: bdn9_rev2

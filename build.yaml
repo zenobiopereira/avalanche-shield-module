@@ -6,9 +6,9 @@
 # distinguish build outputs from each other:
 #
 board: [ "nice_nano_v2" ]
-shield: [ "avalanche" ]
-#include:
-#  - board: avalanche
+shield: [ "avalanche_left", "avalanche_right", "settings_reset" ]
+# include:
+#   - board: avalanche
 #   - board: nice_nano_v2
 #     shield: reviung41
 #   - board: nice_nano_v2

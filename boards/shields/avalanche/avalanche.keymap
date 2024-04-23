@@ -31,6 +31,6 @@
         &kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B      &kp C_MUTE &none   &none &none  &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                          &kp LGUI &kp LALT &kp LCTRL &none  &kp RET                &kp SPACE  &none  &kp RCTRL &kp RALT  &kp RGUI
           >;
-        }
+        };
     };
   };

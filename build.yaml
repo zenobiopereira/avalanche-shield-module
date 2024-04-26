@@ -6,9 +6,10 @@
 # distinguish build outputs from each other:
 #
 # board: [ "nice_nano_v2" ]
-# shield: [ "corne_left", "corne_right" ]
+# shield: [ "avalanche_left", "avalanche_right", "settings_reset" ]
 # include:
-#   - board: bdn9_rev2
+  # - board: nice_nano_v2
+    # shield: avalanche
 #   - board: nice_nano_v2
 #     shield: reviung41
 #   - board: nice_nano_v2
@@ -17,3 +18,12 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+board: [ "nice_nano_v2" ]
+shield: [ "avalanche_left", "avalanche_right"]
+include:
+  - board:  nice_nano_v2
+    shield: avalanche_left
+  - board: nice_nano_v2
+    shield: avalanche_right
+  - board: nice_nano_v2
+    shield: settings_reset

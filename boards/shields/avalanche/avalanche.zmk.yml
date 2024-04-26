@@ -1,0 +1,13 @@
+file_format: "1"
+id: avalanche
+name: Avalanche
+type: shield
+url: https://levilentz.com
+requires: [pro_micro]
+# exposes: [i2c_oled]
+features:
+  - keys
+  # - display
+siblings:
+  - avalanche_left
+  - avalanche_right

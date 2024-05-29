@@ -9,7 +9,7 @@
             #binding-cells = <2>;
             label = "tdlayer";
             bindings = <&mo>, <&kp>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <125>;
         };
     };
 
